@@ -2,7 +2,6 @@ from uuid import uuid4
 import string
 import itertools
 
-
 # File Names
 
 def get_uuid_filename(size: int, extension: str) -> list:

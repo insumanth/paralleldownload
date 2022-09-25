@@ -1,6 +1,8 @@
 
 from .__init__ import VERSION, CORE_COUNT
 
+cli_name = "paralleldownload"
+
 info = """
  
     Info
@@ -20,7 +22,7 @@ simple_example = f"""
  
     Simple Example
     --------------
-    $ paralleldownload input_url_file.txt 
+    $ {cli_name} input_url_file.txt 
    
    * It downloads the files using the urls in the file. Each url in a line.
    * Uses number of process equal to number of CPU Cores in the machine [You have {CORE_COUNT} CPU Cores]
@@ -30,3 +32,4 @@ simple_example = f"""
 detailed_example = f"""
 {simple_example}
 """
+

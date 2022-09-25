@@ -139,14 +139,16 @@ Make request  ➜ open a file ➜ save the content to the file
 
 After it is done, Each Python Interpreter repeats the steps 42 times (1000 files / 24 process).
 
-```
-➜➜➜ .. ➜➜➜ .. ➜➜➜ .. ➜➜➜ .. ➜➜➜ .. ➜➜➜ .. ➜➜➜ .. ➜➜➜
-➜➜➜ .. ➜➜➜ .. ➜➜➜ .. ➜➜➜ .. ➜➜➜ .. ➜➜➜ .. ➜➜➜ .. ➜➜➜
-[.. 21 more processes ..]
-➜➜➜ .. ➜➜➜ .. ➜➜➜ .. ➜➜➜ .. ➜➜➜ .. ➜➜➜ .. ➜➜➜ .. ➜➜➜
-```
-
 It takes `(1000 files` `/` `24 Processes)` `x` `1 Second` = `42 Seconds` or `~1 Minutes` to download all files.
+
+```
+➜➜➜ .. ➜➜➜ .. ➜➜➜ .. ➜➜➜ .. ➜➜➜ .. ➜➜➜ .. ➜➜➜ .. ➜➜➜
+➜➜➜ .. ➜➜➜ .. ➜➜➜ .. ➜➜➜ .. ➜➜➜ .. ➜➜➜ .. ➜➜➜ .. ➜➜➜
+➜➜➜ .. ➜➜➜ .. ➜➜➜ .. ➜➜➜ .. ➜➜➜ .. ➜➜➜ .. ➜➜➜ .. ➜➜➜
+[.. 19 more processes ..]
+➜➜➜ .. ➜➜➜ .. ➜➜➜ .. ➜➜➜ .. ➜➜➜ .. ➜➜➜ .. ➜➜➜ .. ➜➜➜
+➜➜➜ .. ➜➜➜ .. ➜➜➜ .. ➜➜➜ .. ➜➜➜ .. ➜➜➜ .. ➜➜➜ .. ➜➜➜
+```
 
 **Note:** This is just a logical comparison.
 The time is not a real world example, many factors affects the download speeed.

@@ -15,6 +15,7 @@ def validate_input_file(path: str) -> tuple:
     return file_exists, file_readable
 
 
+
 def validate_save_directory(path: str) -> tuple:
     directory_path = Path(path)
     directory_exists = False
