@@ -1,0 +1,41 @@
+[tool.poetry]
+name = "paralleldownload"
+version = "0.5.2"
+description = "Parallel Fast Downloader"
+authors = [ "Sumanth <sumanthreddystar@gmail.com>" ]
+maintainers = [ "Sumanth <sumanthreddystar@gmail.com>" ]
+readme = "README.md"
+
+homepage = "https://pypi.org/project/paralleldownload/"
+repository = "https://github.com/insumanth/paralleldownload"
+documentation = "https://github.com/insumanth/paralleldownload/blob/main/README.md"
+
+keywords = [
+    "paralleldownload",
+    "cli",
+    "downloader",
+    "multiprocess",
+    "files",
+    "fast",
+    "requests",
+    "Parallel Fast Downloader",
+    "Concurrent Fast Downloader",
+]
+
+[tool.poetry.urls]
+"Bug Tracker" = "https://github.com/insumanth/paralleldownload/issues"
+
+[tool.poetry.dependencies]
+python = "^3.6"
+requests= "^2.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+pfd = "paralleldownload.paralleldownloadcli:start"
+paralleldownload = "paralleldownload.paralleldownloadcli:start"
+
+

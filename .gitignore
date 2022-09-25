@@ -1,0 +1,9 @@
+
+.*
+!/.gitignore
+
+poetry.lock
+dist
+.idea
+paralleldownload/__pycache__
+
